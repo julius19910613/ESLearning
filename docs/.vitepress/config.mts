@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'ES6Learning',
+  title: 'ESLearning',
   description: '从 ES2015 到 ES2025 的 JavaScript / ECMAScript 学习站点',
   lang: 'zh-CN',
-  base: '/ES6Learning/',
+  base: '/ESLearning/',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -41,7 +41,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/julius19910613/ES6Learning' }
+      { icon: 'github', link: 'https://github.com/julius19910613/ESLearning' }
     ],
     outline: {
       level: [2, 3],

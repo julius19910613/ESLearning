@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "ES6Learning"
+  name: "ESLearning"
   text: "从 ES2015 到 ES2025 的 JavaScript 年代线"
   tagline: "按年份梳理 ECMAScript 特性，用可复制示例快速回忆语法、语义与兼容性边界。"
   image:
     src: /logo.svg
-    alt: ES6Learning
+    alt: ESLearning
   actions:
     - theme: brand
       text: 从 ES2015 开始

@@ -1,4 +1,4 @@
-# ES6Learning
+# ESLearning
 
 一个基于 VitePress 的静态学习站点，内容覆盖 ECMAScript / JavaScript 从 ES2015 到 ES2025 的核心特性，适合快速查阅、按年份学习和在 GitHub Pages 上部署。
 
@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-默认会启动 VitePress 本地站点，通常可在 `http://localhost:5173/ES6Learning/` 访问。
+默认会启动 VitePress 本地站点，通常可在 `http://localhost:5173/ESLearning/` 访问。
 
 ## 构建与预览
 
@@ -53,10 +53,10 @@ npm run preview
 当前 VitePress `base` 已配置为：
 
 ```txt
-/ES6Learning/
+/ESLearning/
 ```
 
-这与 GitHub Pages 仓库页路径 `https://<user>.github.io/ES6Learning/` 对应。
+这与 GitHub Pages 仓库页路径 `https://<user>.github.io/ESLearning/` 对应。
 
 ## 内容结构
 
