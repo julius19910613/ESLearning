@@ -1,0 +1,85 @@
+:root {
+  --vp-font-family-base: "IBM Plex Sans", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular", monospace;
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #115e59;
+  --vp-c-brand-3: #134e4a;
+  --vp-c-brand-soft: rgba(15, 118, 110, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0f766e 0%, #ea580c 100%);
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 20% 20%, rgba(15, 118, 110, 0.35), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.28), transparent 30%),
+    radial-gradient(circle at 50% 80%, rgba(14, 116, 144, 0.24), transparent 30%);
+  --vp-home-hero-image-filter: blur(48px);
+}
+
+.VPHomeHero .text {
+  max-width: 13ch;
+}
+
+.vp-doc .timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 24px 0 32px;
+}
+
+.vp-doc .timeline-card {
+  display: block;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 18px;
+  padding: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72)),
+    linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(234, 88, 12, 0.08));
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.dark .vp-doc .timeline-card {
+  background:
+    linear-gradient(180deg, rgba(16, 24, 40, 0.9), rgba(16, 24, 40, 0.82)),
+    linear-gradient(135deg, rgba(15, 118, 110, 0.22), rgba(234, 88, 12, 0.16));
+}
+
+.vp-doc .timeline-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.vp-doc .timeline-card strong {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.vp-doc .timeline-card p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.55;
+}
+
+.vp-doc .quick-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 8px 10px 0;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-text-1);
+  font-size: 0.92rem;
+}
+
+.vp-doc .support-note {
+  border-left: 4px solid var(--vp-c-brand-1);
+  padding: 12px 16px;
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 70%, transparent);
+  border-radius: 0 12px 12px 0;
+  margin: 18px 0;
+}
+
+.vp-doc .support-note p {
+  margin: 0;
+}
